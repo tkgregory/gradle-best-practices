@@ -1,0 +1,5 @@
+import com.tomgregory.RollercoasterTask
+
+tasks.register('coaster', RollercoasterTask) {
+    favouriteCoaster = 'Super-duper loopy coaster'
+}
