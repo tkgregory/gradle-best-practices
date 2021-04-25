@@ -1,0 +1,5 @@
+tasks.register('printMessage') {
+    doLast {
+        println 'Gradle wrapper 4tw!'
+    }
+}
