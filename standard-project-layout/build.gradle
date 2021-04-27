@@ -1,0 +1,17 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.1'
+
+    implementation 'com.google.guava:guava:30.0-jre'
+}
+
+application {
+    mainClass = 'com.tomgregory.App'
+}
