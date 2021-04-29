@@ -1,6 +1,0 @@
-plugins {
-    id 'java'
-    id 'pl.allegro.tech.build.axion-release' version '1.13.2'
-}
-
-project.version = scmVersion.version
