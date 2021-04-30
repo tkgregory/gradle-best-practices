@@ -9,6 +9,10 @@ Extract common task declarations and `dependsOn` relationships into
 a plugin in the *buildSrc* directory. This
 promotes encapsulation and enables reuse across sub-projects.
 
+## clean example
+
+Don't run clean before building your application. Instead, rely on Gradle's incremental build.
+
 ## gradle-wrapper-example
 
 Always use the Gradle wrapper. This ensures you're using the Gradle version
