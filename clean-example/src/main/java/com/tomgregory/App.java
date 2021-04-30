@@ -5,7 +5,7 @@ package com.tomgregory;
 
 public class App {
     public String getGreeting() {
-        return "Hello World!";
+        return "Gradle incremental build 4tw!";
     }
 
     public static void main(String[] args) {
