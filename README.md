@@ -19,7 +19,7 @@ Always use the Gradle wrapper. This ensures you're using the Gradle version
 compatible with the project and allows others to build the project without
 a local Gradle installation.
 
-# parallel-test-example
+## parallel-test-example
 
 Use the maxParallelForks property to speed up your tests by running them in parallel.
 
