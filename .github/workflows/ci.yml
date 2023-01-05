@@ -1,0 +1,41 @@
+name: CI
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java-version: [ 11, 17 ]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up JDK ${{ matrix.java-version }}
+        uses: actions/setup-java@v2
+        with:
+          java-version: ${{ matrix.java-version }}
+          distribution: 'adopt'
+          cache: gradle
+      - name: Build with Gradle
+        run: ./gradlew build
+        working-directory: buildsrc-plugins
+      - name: Build with Gradle
+        run: ./gradlew build
+        working-directory: buildsrc-tasks
+      - name: Build with Gradle
+        run: ./gradlew build
+        working-directory: clean-example
+      - name: Build with Gradle
+        run: ./gradlew build
+        working-directory: gradle-wrapper-example
+      - name: Build with Gradle
+        run: ./gradlew build
+        working-directory: parallel-test-example
+      - name: Build with Gradle
+        run: ./gradlew build
+        working-directory: settings-example
+      - name: Build with Gradle
+        run: ./gradlew build
+        working-directory: standard-project-layout
