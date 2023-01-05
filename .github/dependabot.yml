@@ -1,0 +1,34 @@
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/buildsrc-plugins"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "gradle"
+    directory: "/buildsrc-tasks"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "gradle"
+    directory: "/clean-example"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "gradle"
+    directory: "/gradle-wrapper-example"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "gradle"
+    directory: "/parallel-test-example"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "gradle"
+    directory: "/settings-example"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "gradle"
+    directory: "/standard-project-layout"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
