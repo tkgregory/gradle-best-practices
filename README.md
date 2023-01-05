@@ -1,3 +1,5 @@
+[![CI](https://github.com/tkgregory/gradle-best-practices/actions/workflows/ci.yml/badge.svg)](https://github.com/tkgregory/gradle-best-practices/actions/workflows/ci.yml)
+
 ## buildsrc-tasks
 
 Extract custom task implementations from the build script into *buildSrc*. This
