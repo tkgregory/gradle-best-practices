@@ -3,32 +3,32 @@ updates:
   - package-ecosystem: "gradle"
     directory: "/buildsrc-plugins"
     schedule:
-      interval: "daily"
+      interval: "monthly"
   - package-ecosystem: "gradle"
     directory: "/buildsrc-tasks"
     schedule:
-      interval: "daily"
+      interval: "monthly"
   - package-ecosystem: "gradle"
     directory: "/clean-example"
     schedule:
-      interval: "daily"
+      interval: "monthly"
   - package-ecosystem: "gradle"
     directory: "/gradle-wrapper-example"
     schedule:
-      interval: "daily"
+      interval: "monthly"
   - package-ecosystem: "gradle"
     directory: "/parallel-test-example"
     schedule:
-      interval: "daily"
+      interval: "monthly"
   - package-ecosystem: "gradle"
     directory: "/settings-example"
     schedule:
-      interval: "daily"
+      interval: "monthly"
   - package-ecosystem: "gradle"
     directory: "/standard-project-layout"
     schedule:
-      interval: "daily"
+      interval: "monthly"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "monthly"
